@@ -2,142 +2,139 @@
 <html>
 <head>
     <title>Categoria Laptops</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/laptops_estilo.css">
+      <script>
+        function msg() {
+        alert("Brevemente");
+        }
+      </script>
 </head>
 <body>
-    <header>
+    <div id="topo_left">
+        <p class="topo"><strong>Contacte-nos:&nbsp;</strong><a href="mailto:e_commerce@kutiva.co.mz">e_commerce@kutiva.co.mz</p>
+    </div>
+    <div id="topo_right">
+        <p >
+        <input type="submit" value="Criar Conta" class="button"><a href="#" target="blank" class="topo"></a> &NonBreakingSpace;&nbsp;
+        <input type="submit" value="Iniciar Sessão" class="button"> <a href="#" target="blank" class="topo"></a>
+        </p>
+    </div>
+<header id="cabeçalho">
+
+  <div ><a href="index.html"><img src="img/logotipo.png" alt=" e-commerce logo" class="logo"></a><h1 id="slogan">A sua loja virtual</h1></div>
+
+
+
+<div class="menu">
+<ul><!--lista no cabeçalho-->
+      <li> <a href="index.html">Inicio</a> </li>
+        <li> <a href="##">Produtos</a>
+           <ul>  
+            <li><a href="laptops.html">Computadores</a></li>
+            <li><a href="#">Celulares</a></li>
+           </ul> 
+        </li>
       
-		<nav class="menu">  
-                <input type="checkbox" id="botao_menu" />
-                  <label for="botao_menu">&#9776;</label>	
-              <ul >  
-                <li><a href="##">
-                    <img src="img/logo.png" alt="logo">
-                </a></li>  
-                <li><a href="###">Categorias</a>
-                    <ul>
-                        <li><a href="#">Computadores</a></li>
-                        <li><a href="#">Celulares</a></li>
-                        <li><a href="#">Tablets</a></li>
-                  </ul> 
-                </li>
-                <li><a href="###">Pagamentos</a></li>
-                <li><a href="##">Conta</a>
-                    <ul>
-                        <li><a href="###">Criar</a></li>
-                        <li><a href="##">Registrar</a></li>
-                    </ul>
-                </li>
-                <li><a href="##">Sobre Nos</a></li> 
-                <li><a href="##">Ajuda</a></li> 
-                  
-                 <li class="search">
-                 <img src="img/pesquisa.png">  
-                 <input type="text" placeholder="Pesquisar..."> 
-                 <button type="submit"></button> 
-                
-                </li> 
-              </ul>  
-            </nav>
-
-    </header>
-
-
-    <section>
-        <div>
-         <h2>DELL</h2>
-         <ul>
-                <li><a href="#"><figure><p>Dell Inspiron 3567 i5-7200 8GB 1TB 15.6” </p> <img  src="img/laptops/dell_inspiron.jpg" alt="dell inspiron" class="dell"> </figure></a>
-                    <figcaption>25000mtn</figcaption> </li>
-                <li><a href="#">Celulares</a></li>
-                <li><a href="#">Tablets</a></li>
+        <li> <a href="##">Pagamentos</a>
+          <ul>  
+            <li><a href="#">Mpesa</a></li>
+            <li><a href="#">Emola</a></li>
+            <li><a href="#">BCI</a></li>
           </ul> 
         </li>
-        <li><a href="###">Pagamentos</a></li>
-        <li><a href="##">Conta</a>
-            <ul>
-                <li><a href="###">Criar</a></li>
-                <li><a href="##">Registrar</a></li>
+        <li><div id="divBusca">
+        <!--  <img src="img/pesquisa.png" alt="Buscar..."/>  -->
+          <input type="text" id="txtBusca" placeholder="Buscar..."/>
+          <button id="btnBusca">Buscar</button>
+        </div></li>
+     <!---  <li> <input type="pesquisa" name="pesquisa" size="15" maxlength="15" placeholder="produto" class="box"> </li>
+        <li> <input type="image" src="img/pesquisa.png" alt="Submit" class="botao"> <a href="#"></a></li> -->
+        
+    </ul>
+  </div>
+</header>
+
+<marquee direction="left"> <b> Aprovite ja nossas promocoes  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; 2019 Kutiva Consulting</b> </marquee>	
+
+    <section>
+
+     <!--- <aside > <img src="img/blogif.gif" alt="anuncio"></aside> -->
+      
+     <div id="figuras">
+        <ul> <h3>Dell</h3>  
+            <li><a href="#"><p>Dell Inspiron 3567 i5-7200 8GB 1TB 15.6"</p><br><p>27000mtn</p><img  src="img/laptops/dell_inspiron.jpg" alt="dell inspiron" class="imagem"></a> </li>
+            <li><a href="#"><p>Dell G5 i7 8thgen 16GB 256GB(SSD)  15.6"</p><br><p>75000mtn</p><img  src="img/laptops/dell_g5.jpeg" alt="dell g5" class="imagem"></a> </li>
+            <li><a href="#"><p>Dell Latitude 5580 i5 8GB 500GB 15.5"</p><br><p>23000mtn</p><img  src="img/laptops/dell_latitude.jpg" alt="dell latitude" class="imagem"></a> </li>
+            <li><a href="#"><p>Dell Vostro 3568 i5 4GB 500GB 12.5"</p><br><p>20000mtn</p><img  src="img/laptops/dell_vostro.jpeg" alt="dell vostro" class="imagem"></a> </li>  
+             <a href="#" ><input type="submit" class="vermais" value="Ver mais..." onclick="msg()"></a> 
+        </ul>
+    </div>
+
+    <div id="figuras">
+            <ul> <h3>HP</h3>  
+                <li><a href="#"><p>Hp 250 G5 i3 5thgen 4GB 1TB 15.6"</p><br><p>18000mtn</p><img  src="img/laptops/hp_250.png" alt="hp_250" class="imagem"></a> </li>
+                <li><a href="#"><p>HP Elitebook 820 i5 8GB 500GB 15.5"</p><br><p>20000mtn</p><img  src="img/laptops/hp_820.png" alt="hp_820" class="imagem"></a> </li>
+                <li><a href="#"><p>HP Elitebook 840 G3 i5 4GB 256GB(SSD) 14"</p><br><p>21000mtn</p><img  src="img/laptops/hp_840.png" alt="hp_840" class="imagem"></a> </li>
+                <li><a href="#"><p>HP Probook 450 G1 i7 8GB 500GB 15.5"</p><br><p>25000mtn</p><img  src="img/laptops/hp_450.png" alt="HP_Probook_450" class="imagem"></a> </li>  
+                 <a href="#"><input type="submit" class="vermais" value="Ver mais..." onclick="msg()"></a> 
             </ul>
- <!---        <table>
-                <tr>
-                        <th>Continente</th>
-                        <th>Pa&iacute;s</th>
-                        <th>Capital</th>
-                    </tr>
-                    <tr>
-                        <td>Africa</td>
-                        <td>Mo&ccedil;ambique</td>
-                        <td>Maputo</td>
-                    </tr>
-                    <tr>
-                        <td>Europa</td>
-                        <td>Portugal</td>
-                        <td>Lisboa</td>
-                    </tr>
-                    <tr>
-                        <td>America do Sul</td>
-                        <td>Argentina</td>
-                        <td>Buenos Aires</td>
-                    </tr>
-         </table> --->
-
-        </div>
-
-        <div>
-         <h2>HP</h2>
-                
-        </div>
-
-        <div>
-        <h2>MAC</h2>
-                       
-        </div>
-
+        </div>   
+                   
+        <div id="figuras">
+                <ul> <h3>Lenovo</h3>  
+                    <li><a href="#"><p>Lenovo V510 i5 7thgen 4GB 500GB 15.6"</p><br><p>21000mtn</p><img  src="img/laptops/lenovo_V510.png" alt="Lenovo V510" class="imagem"></a> </li>
+                    <li><a href="#"><p>Lenovo L480 i5 8thgen 8GB 256GB(SSD) 14"</p><br><p>28500mtn</p><img  src="img/laptops/lenovo_L480.jpg" alt="lenovo_L480" class="imagem"></a> </li>
+                    <li><a href="#"><p>Lenovo T470s i5 6thgen 8GB 256GB(SSD) 14"</p><br><p>28500mtn</p><img  src="img/laptops/lenovo_T470s.png" alt="Lenovo_T470" class="imagem"></a> </li>
+                    <li><a href="#"><p>Lenovo V110 i3 8GB 500GB 15.5"</p><br><p>18000mtn</p><img  src="img/laptops/lenovo_V110.jpg" alt="Lenovo V110" class="imagem"></a> </li>  
+                     <a href="#" ><input type="submit" class="vermais" value="Ver mais..." onclick="msg()"></a> 
+                </ul>
+            </div>   
     </section>
 
-    <aside>
-      
-
-    </aside>
-    
-
     <footer>
-           <div class="tabela">
-				<div class="row">
-					<div class="esquerda">
-						<p>Contacto:</p>
-						<p>
-							<img src="img/tell.png"> +258 848 141 431
-						</p>
-						<p>
-							<img src="img/phone.png"> 21 70 40 1
-						</p>
-						<p>
-							<img src="img/email.png"> ecommerce@gmail.com
-						</p>
 
-						
-					</div>
-					<div class="centro">
-						<p><img src="img/loca.png"> Localização:</br>
-							Av. 7 de Setembro, N° 2019</br>
-							Maputo</br>
-							Moçambique </p>
-						
-					</div>
-					<div class="direita">
-						<p> <img src="img/face.png"> </br> 
-						 <img src="img/tt.png"> </br>
-						  <img src="img/insta.png"></br>
-						  <img src="img/in.png">
-							 </p>
-						
-					</div>
-				</div>
-			</div>
+      <section id="foot">
+	 	<div>
+	 	 <h2>Sobre nós</h2>
+          <p>Somos uma plataforma de comércio online <br>
+           que permite  a compra de Laptops e telemoveis em <br>
+           qualquer canto de Maputo, onde as transações são processadas<br>
+           directo da nossa loja sendo feita a encomenda em seguida.</p>
+         </div>
+         
+	    <div>
+	 	<h2>Horário de funcionamento</h2>
+          <p><img src="img/clock1.jpg" class="contact" > 9 às 17 horas</p>
+         </div>
+         
+	    <div>
+	 	<h2>Entre em contacto</h2>
+           
+                <p><img src="img/loca.png" class="contact"> Localização:</br>
+                    Av. 7 de Setembro, N° 2019</br>
+                    Maputo</br>
+                    Moçambique </p>                         
+
+                <p><img src="img/tell.png" class="contact" > +258 848 141 431</p>
+
+                 <p><img src="img/phone.png" class="contact" > 21 70 40 1</p>
+	 	</div>
+	 </section>  
+     
+     <section id="rodape">
+         <div> 
+            <p class="adress"> &copy;2019 Desenvolvido por E-Commerce, todos direitos reservados</p><!--Descricao no Rodape-->
+        </div> 
+         <div>
+           <a href="https://www.kutiva.co.mz"><input type="image"  src="img/tt.png" ALT="twitter"></a> &nbsp;
+           <a href="https://www.kutiva.co.mz"><input type="image"  src="img/face.png" ALT="facebook"></a>&nbsp;
+           <a href="https://www.kutiva.co.mz"><input type="image"  src="img/in.png" ALT="LinkedIN"></a>
+         </div>
+     </section>
+        	
     </footer>
 
 </body>
